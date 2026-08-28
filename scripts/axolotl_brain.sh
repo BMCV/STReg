@@ -1,0 +1,12 @@
+python run.py \
+    --gene_image datasets/axolotl_brain/10DPI_2.tsv.gz\
+    --stain_image datasets/axolotl_brain/10DPI_2.tif \
+    --out_dir datasets/axolotl_brain/results/ \
+    --max_size 512 \
+    --loss MSE \
+    --lr 0.01 \
+    --niter 1000 \
+    --optimizer Adam \
+    --flip_h 0 \
+    --flip_v 1 \
+    --rot90 0

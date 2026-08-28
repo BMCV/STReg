@@ -1,0 +1,12 @@
+python run.py \
+    --gene_image datasets/mouse_embryo/E16.5_E2S6_GEM_bin1.tsv.gz \
+    --stain_image datasets/mouse_embryo/E16.5_E2S6.tif \
+    --out_dir datasets/mouse_embryo/results/ \
+    --max_size 512 \
+    --loss MSE \
+    --lr 0.01 \
+    --niter 1000 \
+    --optimizer Adam \
+    --flip_h 0 \
+    --flip_v 1 \
+    --rot90 1
